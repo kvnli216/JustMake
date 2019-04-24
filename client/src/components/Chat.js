@@ -1,13 +1,23 @@
 import React from 'react';
+import '../css modules/Chat.css';
 
 const Chat = props => (
-  <div id="chat">
-    <div id="chat-window">
-      <div id="output" />
+  <div className="Chat">
+    <div className="Chat-window">
+      <div id="output">
+      Chat/Gamelog
+        <ul>
+          <div>xbao: i am xbao</div>
+          <div>xbao: i am xbao</div>
+          <div>xbao: i am xbao</div>
+        </ul>
+      </div>
     </div>
-    <input id="username" type="text" placeholder="Username" />
-    <input id="message" type="text" placeholder="Message" />
-    <button id="send">Send</button>
+    <div className="Chat-form">
+      <input id="username" type="text" placeholder="Username" />
+      <textarea id="message" type="text" placeholder="Message" />
+      <button id="send" type="button">Send</button>
+    </div>
   </div>
 );
 

@@ -1,0 +1,38 @@
+.Chat {
+  display: flex;
+  flex-direction: column;
+  flex-grow: .66;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.Chat-window {
+  border-style: solid;
+  border-color: green;
+  flex-grow: 5;
+  border-width: 1px;
+  word-wrap: break-word;
+}
+
+.Chat-form {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-color: green;
+  flex-grow: 0.5;
+  border-width: 1px;
+}
+
+#message {
+  width: 97%;
+  height: 100%;
+  background-color:rgb(163, 180, 223);
+  word-wrap: break-word;
+  resize: none;
+}
+
+#send {
+  background-color: rgb(76, 76, 85);
+  color: white;
+  font-weight: bold;
+}

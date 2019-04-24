@@ -1,0 +1,38 @@
+.GameInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-grow: 1;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.Opponents {
+  flex-grow: 5;
+}
+
+.Scores-button {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 1em;
+  padding: 1em;
+  border-style: solid;
+  border-width: 3px;
+  border-color: gray;
+  background-color: rgb(171, 170, 170);
+}
+
+.Score-board {
+  position: absolute;
+}
+
+.Score-table {
+  margin: -70px auto;
+  padding: 20px;
+  background: rgb(228, 177, 177);
+  border-width: 3px;
+  border-color: gray;
+  width: 30%;
+  position: relative;
+  
+}

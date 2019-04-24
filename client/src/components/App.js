@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import './App.css';
+import '../css modules/App.css';
 import io from 'socket.io-client';
-import Chat from './Chat.js';
+import GameInfo from './GameInfo';
+import Table from './Table';
+import Chat from './Chat';
 
 class App extends Component {
   constructor(props) {
@@ -33,9 +35,18 @@ class App extends Component {
     };
   }
 
+  // generateDeck() {
+  //   let deck = [];
+  //   for (let i = 1; i <= 13; i++) {
+
+  //   }
+  // }
+
   render() {
     return (
       <div className="App">
+        <GameInfo />
+        <Table />
         <Chat />
       </div>
     );
