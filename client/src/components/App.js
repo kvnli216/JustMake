@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../css modules/App.css';
+import './App.css';
 import io from 'socket.io-client';
 import GameInfo from './GameInfo';
 import Table from './Table';

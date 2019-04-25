@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css modules/Chat.css';
+import './Chat.css';
 
 const Chat = props => (
   <div className="Chat">

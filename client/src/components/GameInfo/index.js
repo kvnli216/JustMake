@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import '../css modules/GameInfo.css';
-import Opponent from './Opponent';
+import './GameInfo.css';
+import Opponent from '../Opponent';
 
 class GameInfo extends Component {
   constructor(props) {
@@ -14,7 +14,6 @@ class GameInfo extends Component {
   }
 
   toggleScores(e) {
-    console.log(this.state);
     e.stopPropagation();
     e.preventDefault();
     this.setState(currentState => ({

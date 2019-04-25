@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css modules/Table.css';
+import './Cards.css';
 
 const Cards = ({ hand }) => (
   <div className="Hand">

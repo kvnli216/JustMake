@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import '../css modules/Table.css';
-import Cards from './Cards';
-import Player from './Player';
+import './Table.css';
+import Cards from '../Cards';
+// import Player from '../Player';
 
 // class Card {
 //   constructor(value, suit) {
